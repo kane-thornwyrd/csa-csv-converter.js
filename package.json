@@ -1,0 +1,28 @@
+{
+  "name": "csa-csv-converter.js",
+  "version": "1.0.0",
+  "description": "Convert CSV from the french CSA into exploitable JSON",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kane-thornwyrd/csa-csv-converter.js.git"
+  },
+  "keywords": [
+    "csa",
+    "french",
+    "politics",
+    "media"
+  ],
+  "author": "Jean-cédric Thérond <jean.cedric.t@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kane-thornwyrd/csa-csv-converter.js/issues"
+  },
+  "homepage": "https://github.com/kane-thornwyrd/csa-csv-converter.js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
