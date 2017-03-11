@@ -4,6 +4,8 @@
   "description": "Convert CSV from the french CSA into exploitable JSON",
   "main": "lib/main.js",
   "scripts": {
+    "build": "gulp default",
+    "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

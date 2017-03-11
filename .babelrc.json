@@ -3,5 +3,11 @@
   "plugins": [
     "transform-class-properties",
     "transform-node-env-inline"
+    "transform-async-generator-functions",
+    "transform-class-properties",
+    "transform-es2015-destructuring",
+    "transform-export-extensions",
+    "transform-node-env-inline",
+    "transform-object-rest-spread"
   ]
 }
