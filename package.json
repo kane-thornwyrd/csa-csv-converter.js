@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gulp default",
     "watch": "gulp watch",
-    "test": "gulp lint"
+    "test": "gulp lintprod"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,10 @@
     "url": "https://github.com/kane-thornwyrd/csa-csv-converter.js/issues"
   },
   "homepage": "https://github.com/kane-thornwyrd/csa-csv-converter.js#readme",
+  "dependencies": {
+    "csv": "^1.1.1",
+    "lodash": "^4.17.4"
+  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-plugin-syntax-decorators": "^6.13.0",

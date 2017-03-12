@@ -1,2 +1,9 @@
 #!/usr/bin/env node
-'use strict';
+
+const fs = require('fs');
+
+const parser = require('../lib/main');
+
+const input = fs.createReadStream('data/TP-TA_Presidentielle_2017_1er février au 5 mars 2017.csv');
+
+parser({ stringStream: input });

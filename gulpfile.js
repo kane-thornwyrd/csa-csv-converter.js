@@ -7,12 +7,19 @@ const plumber = require('gulp-plumber');
 
 const babelConf = require('./.babelrc.json');
 
-gulp.task('lint', () => {
+gulp.task('lintprod', () => {
   return gulp.src(['src/**/*.js','!node_modules/**'])
     .pipe(plumber())
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
+});
+
+gulp.task('lint', () => {
+  return gulp.src(['src/**/*.js','!node_modules/**'])
+    .pipe(plumber())
+    .pipe(eslint())
+    .pipe(eslint.format());
 });
 
 gulp.task('babel', ['lint'], () =>
